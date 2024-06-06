@@ -1,0 +1,80 @@
+body, h1, h2, p, ul, li, a, input, label {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('user login.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 20px;
+}
+
+body, h1, h2, p, ul, li, a, input, label {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('user login.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    background-color: #ffffff;
+    padding: 40px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.login-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #5e5e5e;
+    border-radius: 5px;
+}
+
+.login-button {
+    background-color: #FF8412;
+    font-size: large;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.login-button:hover {
+    background-color: #17b43e;
+}

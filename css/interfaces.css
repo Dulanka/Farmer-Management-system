@@ -1,0 +1,113 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('user login.jpg');  
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    font-size: larger;
+}
+
+a {
+    color: skyblue; 
+    text-decoration: underline;
+}
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+}
+
+
+.box {
+    text-align: center;
+    color: #5e5e5e;
+    height: 300px fit-content;
+    width: 300px fit-content;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-sizing: content-box; 
+    margin: 20px;
+   
+    border-radius: none;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+form {
+    margin-right: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+
+select {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="date"] 
+        
+    {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #333;
+    padding: 6px;
+    }
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.submit-button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: #FF8412;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #17b43e;
+}
+

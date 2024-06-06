@@ -1,0 +1,96 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('548.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    font-size: larger;
+}
+
+
+.button {
+   
+    color: white;
+    padding: 100px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar {
+    background-color: #000000;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; 
+    height: 50px;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ff0606;
+    color: rgb(255, 255, 255);
+}
+
+.box {
+    width: 80%;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+
+td:last-child {
+    text-align: center;
+
+}
+.logout-button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    background-color: #FF8412;
+    padding: 30px;
+    height: fit-content;
+    margin-top: 25px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #13d644;
+}
+
+
+
